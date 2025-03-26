@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/dorukalkan/pgdatahub/graphs/commit-activity)
 
-A multi-format PostgreSQL data importer that automatically processes various file formats (CSV, JSON, Excel) and imports them into a PostgreSQL database.
+pgdatahub is a multi-format PostgreSQL data import tool that automates ETL operations by processing various file formats (CSV, JSON, Excel) and importing them into a PostgreSQL database.
 
 ## Overview
 
