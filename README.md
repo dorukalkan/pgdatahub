@@ -1,5 +1,9 @@
 # PostgreSQL Data Hub
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dorukalkan/pgdatahub/blob/master/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/dorukalkan/pgdatahub/graphs/commit-activity)
+
 A multi-format PostgreSQL data importer that automatically processes various file formats (CSV, JSON, Excel) and imports them into a PostgreSQL database.
 
 ## Overview
