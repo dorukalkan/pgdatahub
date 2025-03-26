@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Logs
+*.log
+
+# Database
+config.json
+*.csv
+
+# Data folders
+unprocessed_data/
+processed_data/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+# Keep the sample_data directory tracked
+!sample_data/*.csv
+!sample_data/*.xlsx 
+!sample_data/*.json
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local configurations
+.env
+.env.local
+*.local.py
+instance/
