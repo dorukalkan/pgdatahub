@@ -128,4 +128,4 @@ You can reach me at [dorukalkan1.0@gmail.com](mailto:dorukalkan1.0@gmail.com) fo
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/dorukalkan/pgdatahub/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dorukalkan/pgdatahub/blob/master/LICENSE) file for details.
