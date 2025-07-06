@@ -8,21 +8,21 @@ pgdatahub is a multi-format PostgreSQL data import tool that automates ETL opera
 
 ## Overview
 
-pgdatahub automates the process of importing data from various file formats into PostgreSQL databases. It handles the entire pipeline from detecting data files to creating properly structured database tables and importing the data. This tool is particularly useful for data analysts and engineers who need to quickly load multiple datasets into a PostgreSQL database without writing custom import scripts for each file format.
+pgdatahub automates the process of importing data from different file formats into PostgreSQL databases. It handles the entire pipeline from detecting data files to creating properly structured database tables and importing the data. This tool is particularly useful for data analysts and engineers who need to quickly load multiple datasets into a PostgreSQL database without writing custom import scripts for each file format.
 
 ## Features
 
-### File Detection and Processing
+### File detection and processing
 - **Automatic file detection**: Scans the current directory for CSV, JSON, and Excel files
 - **Multi-format support**: Handles CSV, JSON, Excel (.xlsx, .xls, .xlsm, .xlsb, .odf, .ods, .odt)
 - **Multi-sheet Excel support**: Creates separate tables for each sheet in Excel workbooks
 
-### Data Cleaning and Transformation
+### Data cleaning and transformation
 - **Standardized naming**: Converts column names to database-friendly formats
 - **Turkish character conversion**: Transliterates Turkish characters to Latin equivalents
 - **SQL data type mapping**: Maps pandas data types to appropriate SQL data types
 
-### Database Operations
+### Database creation
 - **Automatic schema generation**: Creates database schemas based on data structure
 - **Efficient data loading**: Uses PostgreSQL's COPY command for fast data insertion
 - **Configurable connection**: Connect to any PostgreSQL server via configuration file
@@ -90,7 +90,7 @@ The script will:
 5. Import all data into your PostgreSQL database
 6. Move the processed CSV files to a "processed_data" directory
 
-## Sample Data
+## Sample data
 
 The repository includes sample datasets in the `sample_data` directory that demonstrate the features of pgdatahub:
 
@@ -112,7 +112,7 @@ pgdatahub includes comprehensive logging that saves information about each run t
 
 ## Acknowledgements
 
-This project was initially inspired by Nate from StrataScratch's [CSV File to Database Import Automation](https://github.com/Strata-Scratch/csv_to_db_automation) project. pgdatahub has been built on top of this project and has significantly expanded the core functionalities to include:
+This project was initially inspired by StrataScratch's [CSV File to Database Import Automation](https://github.com/Strata-Scratch/csv_to_db_automation) project. pgdatahub has been built on top of this project and has significantly expanded the core functionalities to include:
 
 - Support for Excel file formats with multiple sheets 
 - Support for JSON files
@@ -121,7 +121,7 @@ This project was initially inspired by Nate from StrataScratch's [CSV File to Da
 - Extensive error handling and logging
 - Secure database configuration
 
-You can check out [StrataScratch](https://www.stratascratch.com) for data science resources and watch Nate's tutorials here:
+You can check out [StrataScratch](https://www.stratascratch.com) for data science resources and watch their tutorials here:
 - [Solve Data Science Tasks In Python](https://youtu.be/wqBFgaMgFQA?feature=shared)
 - [Automating Your Data Science Tasks In Python](https://youtu.be/TDwy1lSjEZo?feature=shared)
 - [Applying Software Engineering Principles To Your Data Science Tasks In Python](https://youtu.be/N0aHeKyNEto?feature=shared)
